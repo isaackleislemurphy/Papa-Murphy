@@ -1,0 +1,13 @@
+name: dashboard
+title:
+username:
+account: joe-murphy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2818290
+bundleId: 3633739
+url: https://joe-murphy.shinyapps.io/dashboard/
+when: 1600227129.74285
+asMultiple: FALSE
+asStatic: FALSE
+additionalFiles: ARI.png|ATL.png|BAL.png|BUF.png|CAR.png|CHI.png|CIN.png|CLE.png|DAL.png|DEN.png|DET.png|GB.png|HOU.png|IND.png|JAC.png|KC.png|LAC.png|LAR.png|LV.png|MIA.png|MIN.png|NE.png|NO.png|NYG.png|NYJ.png|PHI.png|PIT.png|SEA.png|SF.png|TB.png|TEN.png|WAS.png

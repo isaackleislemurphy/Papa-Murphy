@@ -1,7 +1,40 @@
 ---
 title: "ESPN NFL Power Rankings"
-output: flexdashboard::flex_dashboard
+resource_files:
+- ARI.png
+- ATL.png
+- BAL.png
+- BUF.png
+- CAR.png
+- CHI.png
+- CIN.png
+- CLE.png
+- DAL.png
+- DEN.png
+- DET.png
+- GB.png
+- HOU.png
+- IND.png
+- JAC.png
+- KC.png
+- LAC.png
+- LAR.png
+- LV.png
+- MIA.png
+- MIN.png
+- NE.png
+- NO.png
+- NYG.png
+- NYJ.png
+- PHI.png
+- PIT.png
+- SEA.png
+- SF.png
+- TB.png
+- TEN.png
+- WAS.png
 runtime: shiny
+output: flexdashboard::flex_dashboard
 ---
 
 
@@ -38,7 +71,7 @@ nfl2020_wrangled <- nfl2020_raw%>% #start with nfl2020_raw dataframe
   mutate(Week=as.numeric(str_replace_all(Week, "Week", "")), #replace "WeekX" in each cell with just "X", converted to a numeric value
          # MainColor = paste0("#",toupper(MainColor)), #specifies the hex color for each team
          png_local = paste0(TeamCode,".png")) # create a column of .png file names for each team's logo
-
+ 
 
 ```
 
