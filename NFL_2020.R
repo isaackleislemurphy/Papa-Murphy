@@ -81,7 +81,7 @@ filtered_df = subset_teams(df = nfl2020_wrangled,conference = NULL, division = N
 
 source("NFL_2020_plotfunctions.R")
 
-scatterplot = compare_preseason(df=filtered_df, wk=3) # number after comma is week compared to preseason
+scatterplot = compare_preseason(df=filtered_df, wk=5) # number after comma is week compared to preseason
 
 swimchart = ranking_by_week(df=filtered_df)
 
